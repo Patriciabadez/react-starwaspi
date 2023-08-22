@@ -1,0 +1,23 @@
+.card-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-img-container-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  .card-img-top-details {
+    width: 550px;
+    height: 300px;
+  
+    border: none;
+  }
+ .card.card-details{
+    color:white;
+    background-color: rgba(11, 11, 11, 0.635);
+ }

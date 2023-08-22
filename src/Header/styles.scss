@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    font-size: 1.5rem;
+    color: #24b9dd;
+    background-color: #0e0b14;
+    z-index: 100; 
+    transition: background-color 0.3s;
+  }
+
+  .back-button {
+    font-size: 0.8rem;
+    background-color: #24b9dd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #1789a8;
+  }

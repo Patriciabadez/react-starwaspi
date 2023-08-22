@@ -1,0 +1,28 @@
+.login {
+  background-color: #24b9dd;
+  width           : 350px;
+  height          : 270px;
+  border-radius   : 20px;
+}
+
+.login-title {
+  display        : flex;
+  justify-content: center;
+  font-size      : 2rem;
+  font-weight    : 700;
+  color          : black !important;
+}
+
+.btn.btn_entrar {
+  width           : 100%;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  background-color: black;
+  color           : white;
+}
+
+.btn.btn_entrar:hover {
+  background-color: black;
+  color           : white;
+}
