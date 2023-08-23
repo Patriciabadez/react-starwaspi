@@ -22,10 +22,10 @@ const Header: React.FC = () => {
     backgroundColor: scrolling || location.pathname.includes('/character-details') ? '#0e0b14' : 'transparent',
   };
 
-  let pageTitle = 'Character List';
+  let pageTitle = 'Lista dos personagens';
 
   if (location.pathname.includes('/character-details')) {
-    pageTitle = 'Character Details';
+    pageTitle = 'Detalhes dos personagens';
   }
 
   return (

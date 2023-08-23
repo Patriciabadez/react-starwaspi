@@ -70,7 +70,7 @@ const CharacterList: React.FC = () => {
                   state={{ actorImage: characterImageMap[character.name] }}
                   className="btn btn-primary"
                 >
-                  Details
+                  Detalhes
                 </Link>
               </div>
             </div>
